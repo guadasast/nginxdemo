@@ -1,0 +1,8 @@
+# This docker compose should have the very basic shared resources
+version: "2"
+
+services:
+  simplenginx:
+    build: .
+    ports:
+      - "3000:3000"
